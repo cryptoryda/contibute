@@ -21,7 +21,8 @@ contract limitedSupplyNFT is ERC721URIStorage, Ownable {
     uint256 public defaultExpiryTime;
     uint256 public maxSupply = 15000;
 
-    uint public  PRICE = 0.0001 ether;
+    uint public  PRICE;
+    // change the imput pricce
 
     /**
      * @dev Expiry time for each token ID.
