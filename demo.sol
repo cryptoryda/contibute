@@ -20,8 +20,8 @@ contract unlimitedSupplyNFT is ERC721URIStorage, Ownable {
      */
     uint256 public defaultExpiryTime;
     
-
-    uint public  PRICE = 0.0001 ether;
+//change the price with 0.2
+    uint public  PRICE = 0.2 ether;
 
     /**
      * @dev Expiry time for each token ID.
